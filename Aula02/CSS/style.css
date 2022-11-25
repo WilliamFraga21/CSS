@@ -1,0 +1,22 @@
+*{
+    padding: 5px;
+}
+
+
+body{
+    background:rgb(102, 109, 120);
+    border: 0px;
+}
+
+p{
+    color: red;
+}
+
+.center{
+    text-align: center;
+}
+
+#teste{
+    color: blue;
+    background-color: burlywood;
+}

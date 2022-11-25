@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body{
+    background-color: rgba(214, 224, 26, 0.733);
+}
+.fonte1{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+
+}
+.fonte2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.fonte3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+}
+.link1{
+    font-size: 30px;
+}
+
+a.botao1{
+    background: aqua;
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid red;
+}
+a.botao1:hover{
+    background:blue;
+    color:white;
+    border: 4px solid magenta;
+}
+a.botao2{
+    padding: 5px ;
+    text-decoration: none;
+    border: 5px double green;
+    color:blue;
+}
+a.botao2:hover{
+    border: 10px rgb(11, 198, 255);
+    color: blueviolet;
+    border: 5px double gold;
+    background-color: rgba(218, 25, 128, 0.607);
+}
+a.botao3{
+    text-decoration: none;
+    color: blue;
+}
+
+a.botao3:hover{
+    text-decoration:underline red;
+    color: aqua;
+}
+a.botao4{
+    color: blue;
+    text-decoration: none;
+    font-size: 40px;
+}
+a.botao4:hover{
+    color: coral;
+    font-size: 80px;
+}
+
+a.botao5{
+    cursor:cell ;
+}
+
+#p1{
+    display:none
+}
+.borde1{
+    
+    border: 2px solid blueviolet;
+}
+.borde2{
+    border:  2px solid black;
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+}
+.azul{
+    background: blue;
+    display: inline-block;
+}
+.red{
+    background: red;
+    display: inline-block;
+}
+.verde{
+    background: green;
+    display: inline-block;
+    display: none;
+}

@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: aqua;
+}
+
+.img1{
+    opacity: 0.2;
+
+}
+
+.img2{
+    opacity: 0.5;
+} 
+.img3:hover{
+    opacity: 0.3;
+
+}
+
+ul{
+    background-color: blueviolet;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a , .dropbotao{
+    color: aliceblue;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+li a:hover, .dropdown:hover .dropbotao{
+    background-color: crimson;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    width: 150px;
+
+}
+
+.dropdown-content a{
+    color: black;
+    display: block;
+    text-align: left;
+    border: 2px solid black;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.gradiente1{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to top right ,blue,red);
+
+}
+
+.gradiente2{
+    width: 100%;
+    height: 400px;
+    background-image: radial-gradient( blue,rgb(37, 65, 222));
+
+}
+
+.text1{
+    text-shadow: 1px 1px 4px black;
+}
+.box1{
+    width: 800px;
+    height: 400px;
+    background-color: dimgrey;
+    box-shadow: 4px 4px 3px blue;
+}
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: aqua;
+    }
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: blueviolet;
+    }
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: chartreuse;
+    }
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: darkgreen;
+    }
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+    body{
+        background-color: indigo;
+    }
+}

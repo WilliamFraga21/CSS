@@ -1,0 +1,99 @@
+body{
+    background-color: aquamarine;
+}
+.ex1{
+    border: 2px solid blueviolet;
+    max-width: 600px;
+}
+
+.ex2{
+    border: 2px solid blueviolet;
+    max-width: 600px;
+}
+.containe{
+    background: yellow;
+    position: relative;
+    height: 400px;
+}
+.c1{
+    position: relative;
+    z-index: -1;
+    background: red;
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+}
+.c2{
+    position: relative;
+
+    background: blueviolet;
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+}
+.c3{
+    position: absolute;
+    top: 20px;
+    right: 4px;
+    background: green;
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+}
+.c4{
+    background:maroon;
+    display: inline-block;
+    position:sticky ;
+    top: 7px;
+}
+.whats{
+    background: green;
+    color: azure;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 4px;
+    right: 4px;
+} 
+.containe2{
+    background-image: url('../got_1.jpg');
+    background-size: cover;
+    position: relative;
+    height: 900px;
+}
+.teste{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: red;
+
+}
+.ex3{
+    background: skyblue;
+    color: black;
+    height: 150px;
+    overflow: hidden;
+}
+
+.ex4{
+    background: darkgoldenrod;
+    color: black;
+    height: 150px;
+    overflow: scroll;
+}
+.ex5{
+    background: lawngreen;
+    color: black;
+    height: 150px;
+    overflow: auto;
+}
+.float{
+    width: 300px;
+}
+.borde1{
+    border: 2px solid black;
+}
+.borde1 img{
+    float:left;
+}

@@ -1,0 +1,77 @@
+.paragrafo1{
+    color: magenta;
+}
+.BG1{
+    background-color: silver;
+}
+
+.BG2{
+    background-image: url("../img/pexels-life-of-pix-8892.jpg");
+    height: 400px;
+    background-size: cover;
+}
+.BG2 h2{
+    color: aqua;
+}
+
+.border1{
+    border: 3px double black;
+    color: blueviolet;
+    background-color: bisque;
+    border-radius: 15px;
+}
+
+.margin1{
+    border: 3px double rgb(9, 211, 171);
+    color: rgb(1, 1, 1);
+    background-color: rgb(255, 0, 217);
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.padding1{
+    border: 3px double rgb(21, 197, 12);
+    color: rgb(1, 1, 1);
+    background-color: rgb(243, 251, 0);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.botao{
+    border-radius: 10px;
+    background-color: aqua;
+    color: blueviolet;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    text-decoration: nome;
+}
+.botao:hover{
+    background: red;
+}
+.div1{
+    width: 300px;
+    height: 150px;
+    background: blue;
+    max-width: 600px;
+    max-height: 800px;
+}
+
+.text1{
+    text-align: center;
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+    /* text-decoration: underline;
+    text-transform: uppercase; */
+    text-indent: 40px;
+    letter-spacing: 2px;
+    line-height: 0.9;
+    word-spacing: 3px;
+
+}
